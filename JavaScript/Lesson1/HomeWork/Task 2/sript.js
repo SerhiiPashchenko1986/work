@@ -41,10 +41,14 @@ n = +n
 // 	console.log('Ласкаво просимо');
 // }
 
-let name = prompt('write your name');
-if(escape) {
-	console.log('Ласкаво просимо');
+let n = prompt('Введіть ім’я');
+if(n == 'Пароль') {
+	console.log('Пароль');
+}
+if (n == null) {
+	console.log('Вхід скасований');
+
 }
 else{
-	console.log('Ще замалий');
+	console.log('Вхід скасований');
 }
